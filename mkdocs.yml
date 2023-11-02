@@ -1,0 +1,9 @@
+theme:
+  name: material
+site_name: Вячеслав Роду
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra_css:
+  - stylesheets/extra.css
+title: Вячеслав роду 
