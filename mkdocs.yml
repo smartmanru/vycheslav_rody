@@ -1,9 +1,75 @@
 theme:
   name: material
 site_name: Вячеслав Роду
-markdown_extensions:
-  - attr_list
-  - md_in_html
 extra_css:
   - stylesheets/extra.css
-title: Вячеслав роду 
+  - stylesheets/neoteroi-mkdocs.css
+# extra:
+#   include: docs/feedback/11.yaml
+plugins:
+  - macros
+  # - print-site
+  # - roamlinks
+  # - autolinks
+  # - awesome-pages
+  - include-markdown:
+      encoding: utf8
+      preserve_includer_indent: false
+      dedent: false
+      trailing_newlines: true
+      comments: true
+      rewrite_relative_urls: true
+      heading_offset: 0
+      start: <!--start-->
+      end: <!--end-->
+ 
+
+
+  # - social:
+  #     cards_layout_options:
+  #       logo: layouts/logo-fs8.png
+markdown_extensions:
+  # - include-markdown:
+  #     encoding: utf8
+  #     preserve_includer_indent: false
+  #     dedent: false
+  #     trailing_newlines: true
+  #     comments: true
+  #     rewrite_relative_urls: true
+  #     heading_offset: 0
+  #     start: <!--start-->
+  #     end: <!--end-->
+  # - include-markdown
+  - neoteroi.cards
+
+  # Python Markdown
+  - attr_list
+  - md_in_html
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  
