@@ -1,7 +1,7 @@
 
 #<p style="text-align: center;">Вячеслав Роду</p>
 <figure markdown>
-![Парапсихолог, регрессолог, мастер медитаций](image.png){ align=center }
+![Парапсихолог, регрессолог, мастер медитаций](image-fs8.png){ loading=lazy }{ align=center }
   <figcaption>Парапсихолог, регрессолог, мастер медитаций </figcaption>
 </figure>
 
@@ -21,6 +21,9 @@
 - Восстановление родовых связей и течения родовых энергий.
 - Более 10 супружеских пар избавились от бесплодия.
 - Помощь в обретении уникальных возможностей людям помогающих профессий (психологам, остеопатам, массажистам,  адвокатам, финансистам, менеджерам)
- 
 
 [Узнать больше об авторском курсе Фитнес Сознания](https://centrkolo.autoweboffice.ru/?r=ordering/cart/as1&id=8&clean=true&lg=ru&Settings[hideColQuantity]=1&Settings[hideColDelete]=1){ .md-button }
+# Отзывы о мастере
+{% 
+include-markdown "./feedback.md"
+%}
